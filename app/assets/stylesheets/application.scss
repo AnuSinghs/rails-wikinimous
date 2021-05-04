@@ -1,0 +1,81 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+@import "bootstrap/scss/bootstrap";
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    margin: 5px;
+    color: #333333;
+    background-color: #fff;
+}
+
+.navbar {
+  background: black;
+  padding-bottom:  10px;
+}
+
+.form-design {
+  display: block;
+  margin-left: 100px;
+  padding : 20px;
+}
+
+.form-title, .form-content {
+  font-size: 20px;
+
+}
+
+.article{
+  padding-top: 30px;
+  margin-left: -10px;
+}
+
+#article_title, #article_content{
+  width: 300px;
+}
+
+
+h5 {
+  margin-left: 20px;
+}
+
+.content, .bottom{
+  padding: 20px;
+}
+
+
+.article a {
+    color: black;
+}
+
+.navbar-header a, .navbar-content a {
+    color: white;
+}
+
+.navbar-header h5 {
+  padding-top: 5px;
+}
+
+.form-button input {
+  background: black;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+
